@@ -1,0 +1,8 @@
+version: '1'
+
+services:
+  hola:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      
