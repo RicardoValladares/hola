@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=main-appimage
+Icon=main-icon
+Categories=Education;
+Terminal=true
+X-AppImage-Version=0.1.09
