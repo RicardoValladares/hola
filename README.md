@@ -33,3 +33,14 @@ docker push ghcr.io/ricardovalladares/hola:latest
 docker pull ghcr.io/ricardovalladares/hola:latest
 docker run ghcr.io/ricardovalladares/hola
 ```
+
+
+### Subir Cambios a GitHub
+
+```bash
+git status
+git add .
+git commit -m "Comentario de subida"
+git pull origin main 
+git push origin main
+```
