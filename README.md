@@ -21,7 +21,7 @@ docker-compose up
 ```bash
 #export CR_PAT=tokencreadoengithub ; echo $CR_PAT | docker login ghcr.io -u RicardoValladares --password-stdin
 export CR_PAT=YOUR_TOKEN ; echo $CR_PAT | docker login ghcr.io -u RicardoValladares --password-stdin
-# docker tag nombreimagenmontada:versoin nuevonombre:version
+# docker tag nombreimagenmontada:version nuevonombre:version
 docker tag hola_hola:latest ghcr.io/ricardovalladares/hola:latest
 #subimos
 docker push ghcr.io/ricardovalladares/hola:latest
